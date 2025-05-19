@@ -7,4 +7,37 @@
 
 body {
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+#counter {
+  text-align: center;
+  background-color: cadetblue;
+  padding: 30px;
+  border-radius: 30px;
+  border: 10px solid black;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 3rem;
+}
+
+#buttons-area {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  border: 5px solid black;
+  padding: 13px;
+  font-size: 1.9rem;
+  border-radius: 15px;
+  cursor: pointer;
 }
